@@ -1,0 +1,7 @@
+scenario,protocol,seeds,mean_retransmissions,mean_transmitted,mean_time_s,mean_throughput_kbps,all_correct
+A: Reliable,GBN,30,0,200,25.21,63.46,True
+A: Reliable,SR,30,0,200,25.21,63.46,True
+B: Loss 0.10,GBN,30,92.1,292.1,49.46,32.81,True
+B: Loss 0.10,SR,30,49.5,249.5,48.92,32.95,True
+C: Mixed errors,GBN,30,85.7,285.7,48.96,32.95,True
+C: Mixed errors,SR,30,44.4,244.4,47.48,33.81,True

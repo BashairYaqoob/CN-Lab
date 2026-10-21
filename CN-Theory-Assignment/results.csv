@@ -1,0 +1,7 @@
+seed,scenario,protocol,transmitted,retransmissions,timeouts,delivered,correct,time_s,throughput_kbps,utilization_pct,wall_ms
+810,A: Reliable,GBN,200,0,0,200,yes,25.21,63.46,3.17,47.8
+810,A: Reliable,SR,200,0,0,200,yes,25.21,63.46,3.17,74.3
+810,B: Loss 0.10,GBN,260,60,15,200,yes,41.36,38.69,1.93,49.9
+810,B: Loss 0.10,SR,233,33,33,200,yes,42.26,37.86,1.89,44.8
+810,C: Mixed errors,GBN,264,64,16,200,yes,42.32,37.8,1.89,74.9
+810,C: Mixed errors,SR,231,31,31,200,yes,42.56,37.59,1.88,44.5
